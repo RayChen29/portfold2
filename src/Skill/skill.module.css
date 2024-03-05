@@ -1,0 +1,12 @@
+.skillImg {
+    /* max-width: 15%; */
+    /* height:auto;
+    width:100%; */
+    background-size: cover;
+    background-repeat:none;
+    /* display: block; Ensure the image doesn't affect the layout */
+    /* margin: 0 auto; Center the image within the container */
+    /* margin-left: 10px; */
+    
+
+  }

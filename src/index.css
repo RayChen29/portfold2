@@ -1,0 +1,117 @@
+
+
+@media (max-width:768px){
+
+  .me-blurb{
+    /* color:blue; */
+    max-width: 300px;
+  }
+
+}
+
+@media (min-width:769px) and (max-width:991px){
+  .me-blurb{
+    /* color:red; */
+    max-width: 400px;
+  }
+
+}
+
+@media (min-width:992px) and (max-width:1279px){
+    .me-blurb{
+      /* color:green; */
+      max-width: 500px;
+    }
+}
+
+@media (min-width:1280px) {/*before:max-width was 1439 */
+  .me-blurb{
+    /* color:aqua; */
+    max-width: 500px;
+  }
+}
+
+html,body{
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  font-family: 'Nunito Sans',sans-serif;
+  width: 100%;
+}
+
+.beyond-tlm{
+  padding-right: 30px;
+  background: none;
+  border:none;
+  text-decoration: none;
+  position: absolute;
+  right:0;
+  translate: translateY(-50%);
+}
+
+.navbar{
+  position: relative;
+  background-color: turquoise;
+  padding: 1.5em 0em 1.5em 0.75em;
+  white-space: nowrap;
+}
+
+.topleft-me{
+  color:white;
+  text-decoration: none;
+  padding-left: 1em;
+  font-size: 1.5em;
+  font-weight: 900;
+  
+}
+.topleft-me:visited{
+  color:white;
+}
+
+.topleft-me:hover{
+  color:red;
+}
+
+.topleft-me:active{
+  color:blue;
+}
+
+.section-intro{
+  background-color: gray;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+ 
+}
+
+.intro_component{
+  max-width:750px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.me-pic{
+  margin-top: 1em;
+  border-radius: 50%;
+  width:200px;
+  height:auto;
+}
+
+.my-name{
+  display:block;
+  font-size:40px;
+  font-weight: 900;
+  white-space:nowrap;
+}
+
+.me-blurb{
+  font-size: 20px;
+  font-weight: 500;
+}
+
